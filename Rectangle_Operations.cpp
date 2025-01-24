@@ -21,7 +21,7 @@ public:
         cout<<"Area : "<<length*width<<endl;
     }
     void perimeter(){
-        cout<<"Perimeter: "<<2*(length*width)<<endl;
+        cout<<"Perimeter: "<<2*(length+width)<<endl;
     }
 };
 int main()
